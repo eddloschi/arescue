@@ -7,7 +7,7 @@ It is based on [Arch Linux](https://archlinux.org/) and uses [Archiso](https://p
 More information is avaiable at the [ArchWiki](https://wiki.archlinux.org/index.php/Archiso).
 
 Building
-========
+--------
 
 ```shell
 # git clone git@github.com:eddloschi/arescue.git
