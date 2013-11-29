@@ -20,6 +20,6 @@ chmod 440 /etc/sudoers.d/g_wheel
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 sed -i 's/#\(Storage=\)auto/\1volatile/' /etc/systemd/journald.conf
 
-systemctl enable graphical.target pacman-init.service choose-mirror.service lightdm.service
+systemctl enable graphical.target pacman-init.service choose-mirror.service lightdm.service cpupower.service
 
 /usr/lib/lightdm/lightdm/lightdm-set-defaults --autologin=arch
